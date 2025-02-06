@@ -9,9 +9,11 @@ public abstract class CuerpoCeleste {
     private double distanciaSol=0;
  
 
-    public CuerpoCeleste(String nombre) {
+    public CuerpoCeleste(String nombre, double tamano, String orbita, double distanciaSol) {
         this.tipo=tipo;
-        
+        this.tamano=tamano;
+        this.orbita=orbita;
+        this.distanciaSol=distanciaSol;
     }
 
     public String getTipo() {
@@ -22,9 +24,35 @@ public abstract class CuerpoCeleste {
         this.tipo = tipo;
     }
 
+    public String getOrbita() {
+        return orbita;
+    }
+
+    public void setOrbita(String orbita) {
+        this.orbita = orbita;
+    }
+
+    public double getTamano() {
+        return tamano;
+    }
+
+    public void setTamano(double tamano) {
+        this.tamano = tamano;
+    }
+
+    public double getDistanciaSol() {
+        return distanciaSol;
+    }
+
+    public void setDistanciaSol(double distanciaSol) {
+        this.distanciaSol = distanciaSol;
+    }
+
+    
+    
     public abstract double getGravedad();
     
-    public abstract double getDistanciaSol();
+
 
   
     
