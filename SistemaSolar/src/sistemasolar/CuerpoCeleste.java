@@ -8,6 +8,10 @@ public abstract class CuerpoCeleste {
     double tamano=0;
     double distanciaSol=0;
     int numLuna=0;
+
+    public CuerpoCeleste() {
+        
+    }
     
     
 }
