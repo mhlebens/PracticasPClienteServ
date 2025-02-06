@@ -4,22 +4,22 @@ package sistemasolar;
 public abstract class CuerpoCeleste {
    private String orbita="";
     private double gravedad=0;
-    private String nombre="";
+    private String tipo="";
     private double tamano=0;
     private double distanciaSol=0;
-    private int numLuna=0;
+ 
 
     public CuerpoCeleste(String nombre) {
-        this.nombre=nombre;
+        this.tipo=tipo;
         
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getTipo() {
+        return tipo;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombre(String tipo) {
+        this.tipo = tipo;
     }
 
     public abstract double getGravedad();
