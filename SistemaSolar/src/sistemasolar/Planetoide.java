@@ -1,7 +1,6 @@
-
 package sistemasolar;
 
 
-public class Planetoide {
+public class Planetoide extends CuerpoCeleste implements Planeta{
    
 }
