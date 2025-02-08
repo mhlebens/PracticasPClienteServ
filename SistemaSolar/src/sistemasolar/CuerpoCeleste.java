@@ -1,6 +1,6 @@
 package sistemasolar;
 
-
+//declaracion de atributos
 public abstract class CuerpoCeleste {
    private String orbita="";
     private double gravedad=0;
@@ -9,6 +9,7 @@ public abstract class CuerpoCeleste {
     private double distanciaSol=0;
  
 
+    //constructor de la clase abstracta Cuerpo Celeste
     public CuerpoCeleste(String nombre, double tamano, String orbita, double distanciaSol) {
         this.tipo=tipo;
         this.tamano=tamano;
@@ -16,6 +17,7 @@ public abstract class CuerpoCeleste {
         this.distanciaSol=distanciaSol;
     }
 
+    //setter y getters
     public String getTipo() {
         return tipo;
     }
@@ -49,8 +51,19 @@ public abstract class CuerpoCeleste {
     }
 
     
-    
+    //metodo del calculo de la gravedad
     public abstract double getGravedad();
+
+    
+    //to string de la clase cuepro celeste
+    @Override
+    public String toString() {
+        return    "\nOrbita=" + this.getOrbita() 
+                + "Tipo=" + this.getTipo() 
+                + "\nTamano=" + this.getTamano() 
+                + "\nDistanciaSol=" + this.getDistanciaSol() 
+                + "\nGravedad=" + this.getGravedad();
+    }
     
 
 
