@@ -1,9 +1,12 @@
 package sistemasolar;
 
-public abstract class Planetoide extends CuerpoCeleste implements Planeta {
+//esta clase hereda de cuerpo celeste y utiliza polimorfismo por medio de la interfaz planeta
+public class Planetoide extends CuerpoCeleste implements Planeta {
 
+    //Atributo especifico de los planetas
     private int numLunas;
-
+    
+//constructor de la clase planetoide
     public Planetoide(int numLunas, String nombre, double tamano, String orbita, double distanciaSol) {
         super(nombre, tamano, orbita, distanciaSol);
         this.numLunas = numLunas;
@@ -26,8 +29,9 @@ public abstract class Planetoide extends CuerpoCeleste implements Planeta {
     // Representa en forma de cadena el objeto, mostrando sus atributos principales
     @Override
     public String toString() {
-        return super.toString() + "\n Cantidad de lunas: "
-                + this.getNumLunas() + "\n Año orbital: " + this.calcularAños();
+        return super.toString() 
+                + "\n Cantidad de lunas: " + this.getNumLunas() 
+                + "\n Año orbital: " + this.calcularAños();
     }
 
 }
