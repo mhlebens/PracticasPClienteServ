@@ -4,8 +4,8 @@ package sistemasolar;
 public class PlanetaRocoso extends Planetoide {
 
     //Constructor de la clase Planeta Rocoso
-    public PlanetaRocoso(int numLunas, String nombre, double tamano, String orbita, double distanciaSol) {
-        super(numLunas, nombre, tamano, orbita, distanciaSol);
+    public PlanetaRocoso(int numLunas, String nombre, String tipo ,double tamano, String orbita, double distanciaSol) {
+        super(numLunas, nombre,tipo, tamano, orbita, distanciaSol);
     }
     
     // Calcula el tiempo que tarda el planeta en dar una vuelta alrededor del Sol (año orbital)
