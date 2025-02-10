@@ -1,7 +1,7 @@
 package sistemasolar;
 
 //esta clase hereda de cuerpo celeste y utiliza polimorfismo por medio de la interfaz planeta
-public class Planetoide extends CuerpoCeleste implements Planeta {
+public abstract class Planetoide extends CuerpoCeleste implements Planeta {
 
     //Atributo especifico de los planetas
     private int numLunas;
