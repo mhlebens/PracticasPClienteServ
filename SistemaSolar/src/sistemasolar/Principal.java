@@ -12,7 +12,7 @@ public class Principal {
         planet [3] = new PlanetaRocoso (2, "Marte", 3389.5, "249 millones de kilómetros", 228000000);
         
         for (int i = 0; i < 10; i++) {
-            System.out.println("Datos de los planetas"+planet[i]+planet.toString());
+            System.out.println("Datos de los planetas"+planet[i]+planet.toString()+"\n");
         }
         
     }
