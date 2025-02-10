@@ -1,25 +1,12 @@
 package sistemasolar;
 
-public class PlanetaGaseoso extends CuerpoCeleste implements Planeta {
+public class PlanetaGaseoso extends Planetoide {
 
-    private int numLunas;
-
-    
-    //Se aplican un 90% de los mismos métodos del planeta rocoso.
     public PlanetaGaseoso(int numLunas, String nombre, double tamano, String orbita, double distanciaSol) {
-        super(nombre, tamano, orbita, distanciaSol);
-        this.numLunas = numLunas;
-    }
-
-    public int getNumLunas() {
-        return numLunas;
-    }
-
-    public void setNumLunas() {
-        this.numLunas = numLunas;
-    }
+        super(numLunas, nombre, tamano, orbita, distanciaSol);
+    }   
     
-    // Calcula el tiempo que tarda el planeta en dar una vuelta alrededor del Sol (año orbital)
+    // Calcula el tiempo que tarda el planeta en dar una vuelta alrededor del Sol
     @Override
     public double calcularAños() {
         return Math.sqrt(Math.pow(getDistanciaSol(), 3));
@@ -34,8 +21,6 @@ public class PlanetaGaseoso extends CuerpoCeleste implements Planeta {
     // Representa en forma de cadena el objeto, mostrando sus atributos principales
     @Override
     public String toString(){
-        return "Planeta rocoso: " + super.toString() + "\n Cantidad de lunas: " +
-                this.getNumLunas() + "\n Año orbital: " + this.calcularAños();
-    }
-    
+        return "Planeta rocoso: " + super.toString();
+    }   
 }
