@@ -23,6 +23,6 @@ public class PlanetaGaseoso extends Planetoide {
     // Representa en forma de cadena el objeto, mostrando sus atributos principales
     @Override
     public String toString(){
-        return "Planeta rocoso: " + super.toString();
+        return "Planeta gaseoso: " + super.toString();
     }   
 }
