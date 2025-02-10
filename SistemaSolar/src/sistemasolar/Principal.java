@@ -9,6 +9,11 @@ public class Principal {
         planet [1] = new PlanetaGaseoso (146, "Saturno", 58232, "1418 millones de kilómetros", 1430000000);
         planet [2] = new PlanetaRocoso (0, "Mercurio", 2439.7, "46 millones de kilómetros", 46001200);
         planet [3] = new PlanetaRocoso (2, "Marte", 3389.5, "249 millones de kilómetros", 228000000);
+        
+        //mostrar los datos
+        for (int i = 0; i < planet.length; i++){
+            System.out.println(planet[i] + " \n----------------");
+        }
     }
     
 }
