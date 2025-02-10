@@ -60,7 +60,7 @@ public abstract class CuerpoCeleste {
     @Override
     public String toString() {
         return    "\nOrbita=" + this.getOrbita() 
-                + "Tipo=" + this.getTipo() 
+                + "\nTipo=" + this.getTipo() 
                 + "\nTamano=" + this.getTamano() 
                 + "\nDistanciaSol=" + this.getDistanciaSol() 
                 + "\nGravedad=" + this.getGravedad();
