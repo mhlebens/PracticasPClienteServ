@@ -1,5 +1,6 @@
 package sistemasolar;
 
+//Esta clase hereda de planetoide
 public class PlanetaGaseoso extends Planetoide {
 
     //constructor de la clase PlanetaGaseoso
