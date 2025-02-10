@@ -1,7 +1,9 @@
 package sistemasolar;
 
+//Está clase hereda de planetoide
 public class PlanetaRocoso extends Planetoide {
 
+    //Constructor de la clase Planeta Rocoso
     public PlanetaRocoso(int numLunas, String nombre, double tamano, String orbita, double distanciaSol) {
         super(numLunas, nombre, tamano, orbita, distanciaSol);
     }
