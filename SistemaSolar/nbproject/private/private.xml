@@ -3,9 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/angeg/Documents/U/III%20cuatrimestre/cliente-servidor/semana%204/SistemaSolar/src/sistemasolar/CuerpoCeleste.java</file>
-            <file>file:/E:/angeg/Documents/U/III%20cuatrimestre/cliente-servidor/semana%204/SistemaSolar/src/sistemasolar/Principal.java</file>
-            <file>file:/E:/angeg/Documents/U/III%20cuatrimestre/cliente-servidor/semana%204/SistemaSolar/src/sistemasolar/Planeta.java</file>
+            <file>file:/C:/Users/marif/OneDrive/Documentos/GitHub/Practica1PClienteServ/SistemaSolar/src/sistemasolar/Principal.java</file>
+            <file>file:/C:/Users/marif/OneDrive/Documentos/GitHub/Practica1PClienteServ/SistemaSolar/src/sistemasolar/CuerpoCeleste.java</file>
+            <file>file:/C:/Users/marif/OneDrive/Documentos/GitHub/Practica1PClienteServ/SistemaSolar/src/sistemasolar/Planeta.java</file>
+            <file>file:/C:/Users/marif/OneDrive/Documentos/GitHub/Practica1PClienteServ/SistemaSolar/src/sistemasolar/PlanetaGaseoso.java</file>
+            <file>file:/C:/Users/marif/OneDrive/Documentos/GitHub/Practica1PClienteServ/SistemaSolar/src/sistemasolar/PlanetaRocoso.java</file>
+            <file>file:/C:/Users/marif/OneDrive/Documentos/GitHub/Practica1PClienteServ/SistemaSolar/src/sistemasolar/Planetoide.java</file>
         </group>
     </open-files>
 </project-private>

@@ -2,6 +2,7 @@ package sistemasolar;
 
 //declaracion de atributos
 public abstract class CuerpoCeleste {
+    
    private String orbita="";
     private double gravedad=0;
     private String tipo="";
