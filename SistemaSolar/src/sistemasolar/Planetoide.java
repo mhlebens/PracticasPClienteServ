@@ -7,8 +7,8 @@ public abstract class Planetoide extends CuerpoCeleste implements Planeta {
     private int numLunas;
     
 //constructor de la clase planetoide
-    public Planetoide(int numLunas, String nombre, double tamano, String orbita, double distanciaSol) {
-        super(nombre, tamano, orbita, distanciaSol);
+    public Planetoide(int numLunas, String nombre,String tipo, double tamano, String orbita, double distanciaSol) {
+        super(nombre, tipo, tamano, orbita, distanciaSol);
         this.numLunas = numLunas;
     }
 
