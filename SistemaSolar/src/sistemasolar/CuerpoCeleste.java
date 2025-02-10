@@ -11,7 +11,7 @@ public abstract class CuerpoCeleste {
  
 
     //constructor de la clase abstracta Cuerpo Celeste
-    public CuerpoCeleste(String nombre, double tamano, String orbita, double distanciaSol) {
+    public CuerpoCeleste(String nombre, String tipo,double tamano, String orbita, double distanciaSol) {
         this.tipo=tipo;
         this.tamano=tamano;
         this.orbita=orbita;
