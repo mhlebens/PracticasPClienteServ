@@ -1,2 +1,2 @@
-# Practica1PClienteServ
-Este es el repositorio de la Practica #1 de Programación Cliente/Servidor.
+# PracticasPClienteServ
+Este es el repositorio donde se realizan los archivos de las prácticas programadas.
